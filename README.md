@@ -46,3 +46,21 @@ Classifies a given text into one of six emotions: joy, anger, sadness, love, fea
   "reply": "Saya mengerti perasaanmu. Kadang kita memang butuh waktu untuk diri sendiri. Jangan menyerah, kamu tidak sendirian."
 }
 ```
+
+---
+
+## 📄 Requirements
+
+To run this project, you'll need the following Python packages:
+
+| Package         | Version   | Description                            |
+|-----------------|-----------|----------------------------------------|
+| `Flask`         | 3.1.1     | Web framework to build the API server  |
+| `python-dotenv` | 1.1.1     | Load environment variables from `.env` |
+| `requests`      | 2.32.4    | Make HTTP requests to Together API     |
+| `gunicorn`      | latest    | Production WSGI server for deployment  |
+
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
